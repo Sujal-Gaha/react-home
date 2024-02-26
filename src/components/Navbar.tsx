@@ -1,3 +1,24 @@
+import { Link } from "react-router-dom";
+import styles from "./Navbar.module.css";
+
 export function Navbar() {
-  return <h1>This is the Navbar</h1>;
+  return (
+    <div className={styles.navbar}>
+      <Link to={"/"}>
+      <h1>
+        <span style={{ color: "red", fontSize: "48px" }}>S</span>
+        <span style={{ color: "white" }}>ujal</span>{" "}
+        <span
+          style={{
+            color: "#0088a9",
+          }}
+        >
+          Gaha
+        </span>
+      </h1></Link>
+      <Link className={styles.item} to={"/home"}>Home</Link>
+      <Link className={styles.item} to={"/projects"}>Projects</Link>
+      <Link className={styles.item} to={"/about"}>About</Link>
+    </div>
+  );
 }
