@@ -45,6 +45,14 @@ const router = createBrowserRouter([
           </div>
         ),
       },
+      {
+        path: "/contact",
+        element: (
+          <div>
+            <h1>This is the Contact Page</h1>
+          </div>
+        ),
+      },
     ],
   },
 ]);
