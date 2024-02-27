@@ -1,0 +1,23 @@
+.start {
+    margin: 200px auto;
+    text-align: center;
+    height: 300px;
+    width: 250px;
+    background-color: #0088a9;
+    padding: 30px;
+    border: 1px solid #292929;
+    border-radius: 6px;
+}
+
+.start h1 {
+    margin-bottom: 110px;
+}
+
+.start a {
+    padding: 17px;
+    background-color: springgreen;
+    text-decoration: none;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+}

@@ -1,7 +1,7 @@
 .navbar {
     display: flex;
     justify-content: space-around;
-    background-color: hsl(0, 0%, 16%);
+    background-color: #242124;
     padding: 0 320px;
     text-decoration: none;
 }
