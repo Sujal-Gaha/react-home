@@ -23,8 +23,8 @@ export function Navbar() {
       <Link className={styles.item} to={"/projects"}>
         Projects
       </Link>
-      <Link className={styles.item} to={"/about"}>
-        About
+      <Link className={styles.item} to={"/blog"}>
+        Blog
       </Link>
       <Link className={styles.item} to={"/contact"}>
         Contact

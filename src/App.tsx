@@ -38,10 +38,10 @@ const router = createBrowserRouter([
         ),
       },
       {
-        path: "/about",
+        path: "/blog",
         element: (
           <div>
-            <h1>This is the About Page</h1>
+            <h1>This is the Blog Page</h1>
           </div>
         ),
       },
