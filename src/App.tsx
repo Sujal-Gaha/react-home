@@ -2,6 +2,7 @@ import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { Start } from "./components/Start";
+import { ProjectsCard } from "./components/ProjectsCard";
 
 const router = createBrowserRouter([
   {
@@ -33,7 +34,7 @@ const router = createBrowserRouter([
         path: "/projects",
         element: (
           <div>
-            <h1>This is the Projects Page</h1>
+            <ProjectsCard />
           </div>
         ),
       },
