@@ -9,49 +9,91 @@
 }
 
 .card1 {
-    background-color: #e04344;
+    background-color: #1f2937;
     border-radius: 6px;
     height: 100%;
     width: 100%;
     text-align: center;
+    box-shadow: 1px 2px #e04344;
+    color: #e04344;
+}
+
+.card1:hover {
+    transition: all 0.1s ease 0s;
+    border: 2px solid #e04344;
 }
 
 .card2 {
-    background-color: #3981f6;
+    background-color: #1f2937;
     border-radius: 6px;
     height: 100%;
     width: 100%;
     text-align: center;
+    box-shadow: 1px 2px #3981f6;
+    color: #3981f6;
+}
+
+.card2:hover {
+    transition: all 0.1s ease 0s;
+    border: 2px solid #3981f6;
 }
 
 .card3 {
-    background-color: #34d399;
+    background-color: #1f2937;
     border-radius: 6px;
     height: 100%;
     width: 100%;
     text-align: center;
+    box-shadow: 1px 2px #34d399;
+    color: #34d399;
+}
+
+.card3:hover {
+    transition: all 0.1s ease 0s;
+    border: 2px solid #34d399;
 }
 
 .card4 {
-    background-color: #a855f7;
+    background-color: #1f2937;
     border-radius: 6px;
     height: 100%;
     width: 100%;
     text-align: center;
+    box-shadow: 1px 2px #a855f7;
+    color: #a855f7;
+}
+
+.card4:hover {
+    transition: all 0.1s ease 0s;
+    border: 2px solid #a855f7;
 }
 
 .card5 {
-    background-color: #eab308;
+    background-color: #1f2937;
     border-radius: 6px;
     height: 100%;
     width: 100%;
     text-align: center;
+    box-shadow: 1px 2px #eab308;
+    color: #eab308;
+}
+
+.card5:hover {
+    transition: all 0.1s ease 0s;
+    border: 2px solid #eab308;
 }
 
 .card6 {
-    background-color: #ea4479;
+    background-color: #1f2937;
     border-radius: 6px;
     height: 100%;
     width: 100%;
     text-align: center;
+    box-shadow: 1px 2px #ea4479;
+    color: #ea4479;
+}
+
+.card6:hover {
+    transition: all 0.1s ease 0s;
+    border: 2px solid #ea4479;
 }
