@@ -1,0 +1,25 @@
+.counterContainer {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #1f2937;
+    height: 300px;
+    width: 450px;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 1px 2px #e04344;
+    box-sizing: border-box;
+}
+
+.count {
+    font-size: 100px;
+    padding: 40px;
+    color: #e04344;
+}
+
+.countController {
+    cursor: pointer;
+    margin: 5px;
+    width: 80px;
+}

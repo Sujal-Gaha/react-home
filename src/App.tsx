@@ -3,6 +3,7 @@ import "./App.css";
 import { Navbar } from "./components/Navbar";
 import { Start } from "./components/Start";
 import { ProjectsCard } from "./components/ProjectsCard";
+import { Counter } from "./projects/counter/Counter";
 
 const router = createBrowserRouter([
   {
@@ -51,6 +52,14 @@ const router = createBrowserRouter([
         element: (
           <div>
             <h1>This is the Contact Page</h1>
+          </div>
+        ),
+      },
+      {
+        path: "/counter",
+        element: (
+          <div>
+            <Counter />
           </div>
         ),
       },
