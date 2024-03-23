@@ -8,10 +8,10 @@ export function ProjectsCard() {
         <h2>Counter</h2>
       </Link>
       <Link to={""} className={styles.card2}>
-        <h2>Todo App</h2>
+        <h2>Stop Watch</h2>
       </Link>
       <Link to={""} className={styles.card3}>
-        <h2>Book Review</h2>
+        <h2>Todo App</h2>
       </Link>
       <Link to={""} className={styles.card4}>
         <h2>Weather App</h2>
